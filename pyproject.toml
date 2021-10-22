@@ -1,0 +1,21 @@
+[tool.poetry]
+name = "bird_alert"
+version = "0.1.0"
+description = "fastai deep learning bird recognition POC"
+authors = ["Bas Latcham <abasi.latcham@gmail.com>"]
+
+[tool.poetry.dependencies]
+python = "^3.9"
+fastai = "^2.5.2"
+voila = "^0.2.16"
+ipykernel = "^6.4.2"
+ipywidgets = "^7.6.5"
+pathlib = "^1.0.1"
+jupyterlab = "^3.2.1"
+jupyterlab-widgets = "^1.0.2"
+
+[tool.poetry.dev-dependencies]
+
+[build-system]
+requires = ["poetry-core>=1.0.0"]
+build-backend = "poetry.core.masonry.api"
